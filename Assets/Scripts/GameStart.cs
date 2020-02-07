@@ -42,7 +42,7 @@ public class GameStart : MonoBehaviour {
 
 
 	void Start () {
-		Time.timeScale = MainNavigation.setTimeScale + 0.5f;
+		Time.timeScale = MainNavigation.setTimeScale;// + 0.5f;
 		gameOverScript = GetComponent<GameOver>();
 		bestDistanceScript = GetComponent<BestDistance>();
 		titleSystemScript = GetComponent<TitleSystem>();
@@ -54,7 +54,7 @@ public class GameStart : MonoBehaviour {
 		gameOverScript.darkScreen.SetActive(false);
 
 		GameOver.gameOver = false;
-		
+
 		StartCoroutine(initialWait());
 		// SelectedElements.setLevelTime += 1.0f;
 		levelTime = SelectedElements.setLevelTime > 0 ? SelectedElements.setLevelTime : 10 ;

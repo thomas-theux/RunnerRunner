@@ -3,9 +3,10 @@
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: StylizedWater_Mobile
   m_Shader: {fileID: 4800000, guid: 644d4419f6d30214892dd65158332ba7, type: 3}
   m_ShaderKeywords: _LIGHTING_ON _NORMAL_MAP_ON _SECONDARY_WAVES_ON _WORLDSPACETILIBG_ON

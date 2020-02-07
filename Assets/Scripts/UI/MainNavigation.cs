@@ -9,7 +9,7 @@ public class MainNavigation : MonoBehaviour {
 
 	private EnabledOptions enabledOptionsScript;
 
-	public static float setTimeScale = 1.5f;
+	public static float setTimeScale = 1.0f;
 
 	private bool mainMenuActive;
 	public GameObject eventSystem;
@@ -63,7 +63,7 @@ public class MainNavigation : MonoBehaviour {
 		optionsMenu = GameObject.Find("Options Menu");
 
 		startMenuActive = true;
-		
+
 		startMenu.SetActive(true);
 		splitScreenMenu.SetActive(false);
 		statsMenu.SetActive(false);
@@ -83,7 +83,7 @@ public class MainNavigation : MonoBehaviour {
 
 				StartCoroutine(waitForDialog());
 
-				
+
 			} else {
 				startScreen();
 			}
@@ -93,7 +93,7 @@ public class MainNavigation : MonoBehaviour {
 			if (enabledOptionsScript.getGamepads.Length == 1) { menuTitle.text = "SINGLE\nPLAYER"; }
 			else { menuTitle.text = "SPLIT\nSCREEN"; }
 		}
-		
+
 		// Show choices when quit dialog is open
 		if (!waitingTimeActive && showDialog) {
 			if (Input.GetButtonDown("[One] X")) {
