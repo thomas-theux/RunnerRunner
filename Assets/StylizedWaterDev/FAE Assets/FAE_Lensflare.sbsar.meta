@@ -16,8 +16,8 @@ ScriptedImporter:
     generateAllOutputs: 0
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://FAE_Lensflare\" label=\"\" >\n  <presetinput
-      identifier=\"comp1_brightness\" uid=\"1149644549\" type=\"0\" value=\"1\" />\n
-      \ <presetinput identifier=\"comp2_brightness\" uid=\"1152364140\" type=\"0\"
+      identifier=\"comp1_brightness\" uid=\"1149644549\" type=\"0\" value=\"1\" />\n 
+      <presetinput identifier=\"comp2_brightness\" uid=\"1152364140\" type=\"0\"
       value=\"0.26\" />\n  <presetinput identifier=\"comp3_brightness\" uid=\"1152364376\"
       type=\"0\" value=\"0.145\" />\n  <presetinput identifier=\"comp4_brightness\"
       uid=\"1152360637\" type=\"0\" value=\"0.339\" />\n </sbspreset>\n"
